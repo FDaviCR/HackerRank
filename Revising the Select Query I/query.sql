@@ -5,5 +5,5 @@ Query all columns for all American cities in the CITY table with populations lar
 The CITY table is described as follows:
 */
 
-select * from CITY c(nolock) 
-where COUNTRYCODE = "USA" and POPULATION > 100000;
+SELECT * FROM CITY c(NOLOCK) 
+WHERE COUNTRYCODE = "USA" AND POPULATION > 100000;
